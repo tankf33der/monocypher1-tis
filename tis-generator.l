@@ -9,7 +9,7 @@
    (prinl ",")
    (printsp "raw_options" ':)
    (prin "{ ")
-   (printsp "-val-timeout" ': 10)
+   (printsp "-val-timeout" ': 3600)
    (prin ", ")
    (printsp "-no-results" ': "true")
    (prinl "} ,")
