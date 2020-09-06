@@ -19,7 +19,7 @@
 (setq
    *M
    (quote
-      sparc_64 sparc_32
+      x86_16
       # x86_32 x86_64
       # x86_16 x86_16_huge
       # x86_win32 x86_win64
@@ -30,7 +30,7 @@
    )
    *F
    (quote
-      verify
+      key_exchange sign_check x25519
       # verify wipe lock_unlock blake2b
       # argon key_exchange sign_check hchacha
       # chacha20_init chacha20_x_init p1305 x25519 sha512
